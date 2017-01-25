@@ -1,0 +1,36 @@
+@media (max-width:767px) {
+    .ro {
+        display: block;
+    }
+    .co {
+        width: 100%!important;
+        padding-top: 32px;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width:768px) {
+    .ro {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: inherit;
+        margin: 0;
+    }
+    .co {
+        display: table-cell;
+        height: inherit;
+        margin: 0;
+        vertical-align: top;
+        padding-right: 32px;
+        padding-left: 32px;
+        padding-top: 32px;
+        padding-bottom: 0;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}

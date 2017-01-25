@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JamesEhly.com</title>
+    <link href="/assets/css/bundle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page">
+        <div id="title">
+            <h1>James Ehly</h1>
+        </div>
+        <hr />
+        <div id="resume">
+            <div class="ro">
+                <div class="co" style="width:60%">
+                    <div id="employment-data"></div>
+                </div>
+                <div class="co">
+                    <div id="employment-meta-data"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed
+    <script src="js/bootstrap.min.js"></script> -->
+
+    <script>
+        var po = {
+            page: $("#page"),
+            employmentData: $('#employment-data'),
+            employmentMetaData: $('#employment-meta-data')
+        }
+        po.employmentData.load("/partials/resume/employment.html");
+        po.employmentMetaData.load("/partials/resume/employment-meta.html", function() {
+            po.page.animate({"opacity": 1},500);
+        });
+    </script>
+</body>
+
+</html>
