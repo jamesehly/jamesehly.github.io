@@ -12,5 +12,5 @@ deploy_production:
   script:
     - npm install -g firebase-tools
     - npm install
-    - firebase use --token $FIREBASE_DEPLOY_KEY production
+    - firebase use --token $FIREBASE_DEPLOY_KEY jamesehlycom
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_DEPLOY_KEY
