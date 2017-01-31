@@ -12,16 +12,35 @@
 <body>
     <div id="page">
         <div id="title">
-            <h1>James Ehly</h1>
+            <div class="ro">
+                <div class="co" style="width:360px">
+                    <img src="/images/james-ehly-color.png" height="300" width="300" class="img-circle img-responsive img-me" />
+                </div>
+                <div class="co">
+                    <p class="lead">
+                        I'm James and I create flexible, testable, and creative web applications.
+                        As a full stack developer I enjoy designing and coding user experiences
+                        that make the web easier to use for my clients and their users.
+                    </p>
+                </div>
+            </div>
         </div>
-        <hr />
+        <div id="findme">
+            <div class="ro">
+                <div class="co">
+                    <p>
+                        Find me on...
+                    </p>
+                </div>
+            </div>
+        </div>
         <div id="resume">
             <div class="ro">
                 <div class="co" style="width:60%">
-                    <div id="employment-data"></div>
+                    <div id="employment-data" data-type="partial" data-file="/partials/resume/employment.html"></div>
                 </div>
                 <div class="co">
-                    <div id="employment-meta-data"></div>
+                    <div id="employment-meta-data" data-type="partial" data-file="/partials/resume/employment-meta.html"></div>
                 </div>
             </div>
         </div>
@@ -32,17 +51,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed
     <script src="js/bootstrap.min.js"></script> -->
 
-    <script>
-        var po = {
-            page: $("#page"),
-            employmentData: $('#employment-data'),
-            employmentMetaData: $('#employment-meta-data')
-        }
-        po.employmentData.load("/partials/resume/employment.html");
-        po.employmentMetaData.load("/partials/resume/employment-meta.html", function() {
-            po.page.animate({"opacity": 1},500);
-        });
-    </script>
-</body>
+    <script src="/assets/js/bundle.js"></script>
+</body> 
 
 </html>

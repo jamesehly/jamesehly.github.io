@@ -1,5 +1,5 @@
 #page {
-    background: #FFF;
+    //background: #FFF;
     padding: 30px;
     margin: 0 auto;
     max-width: 900px;
@@ -8,6 +8,32 @@
 
 #title {
     text-align: center;
+    .img-me {
+        border:3px solid rgba(255,255,255,.5);
+        box-shadow:0 3px 20px rgba(0,0,0,.25);
+        margin:0 auto;
+
+        @media (max-width:500px) {
+           width:75%;
+           max-width:300px;
+        }
+        
+    }
+
+    .lead {
+        font-size:24px;
+        text-align:justify;
+        margin-top:54px;
+
+        @media (max-width:500px) {
+           font-size:18px;
+           margin-top:20px;
+        }
+    }
+} 
+
+#resume {
+    margin-top:40px;
 }
 
 #employment-data {
