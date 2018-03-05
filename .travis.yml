@@ -1,6 +1,4 @@
 language: node_js
-node_js:
-  - "7"
 script:
   - echo "Deploy!!"
 install:
@@ -8,4 +6,4 @@ install:
   - npm install
 after_success:
   - gulp build
-  - firebase deploy --project jamesehlycom --token $FIREBASE_TOKEN 
+  - firebase deploy - project jamesehlycom - token $FIREBASE_TOKEN
