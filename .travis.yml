@@ -1,8 +1,8 @@
 language: node_js
 script:
-  - echo "Deploy!!"
+  - echo "Deploy!!"
 install:
-  - npm install -g firebase-tools gulp
+  - npm install -g firebase-tools gulp
   - npm install
 after_success:
   - gulp build
