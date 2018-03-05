@@ -8,4 +8,4 @@ install:
   - npm install
 after_success:
   - gulp build
-  - firebase deploy - project jamesehlycom - token $FIREBASE_TOKEN
+  - firebase deploy --project jamesehlycom --token $FIREBASE_TOKEN
