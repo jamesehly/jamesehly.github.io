@@ -1,29 +1,55 @@
 #### Education
-Bachelor of Fine Arts ~ Emphasis in Printmaking
+
+**Bachelor of Fine Arts ~ Emphasis in Printmaking**  
 Kansas City Art Institute, Kansas City, MO, 2001
 
+**Certificate of Graduation**  
+Dakota School of Banking - Jamestown, ND, 2015
+
+---
+
 #### Skills
-I'm an experienced frontend developer who's been developing websites and online 
-applications professionally since 2001. In the past I've utilized many PHP 
-frameworks and libraries including Composer, CodeIgniter, Zend, PEAR, Symfony, 
-and xPDO and I've developed websites and custom plugins for WordPress and MODx 
-CMS. While at Sycorr I've learned the ASP.NET MVC stack and have created web 
-applications using C#, MSSQL Server, FluentNHibernate, AutoMapper, etc. I'm also 
-very familiar with creating UX with Bootstrap, Angular JS, jQuery, EXTjs, and 
-Javascript.
+* JavaScript
+* Angular JS (1 & 2)
+* jQuery
+* TypeScript & ES6
+* HTML5/CSS3
+* LESS/SASS
+* C#/.NET
+* Node
+* AWS
+* Photoshop
+* lllustrator
+* PHP
+* MySQL, MSSQL
+* Agile
+* Grunt, Gulp, Webpack
+* Git
+* PHP
+* Java
+---  
+#### Highlights
+* Senior developer with over 15yrs of experience.
+* Frontend Focused Developer
+* Team leader for over 5 years
+* Experience with Angular 1 and 2
+* HTML/CSS and JavaScript expert
 
-#### Languages and Frameworks
-**Experienced with:** C#, .NET, PHP, MySQL, MSSQL, Javascript, jQuery, AngularJS, 
-CSS 3, XHTML, HTML5, XSL/XSLT, Razor, CodeIgniter, Zend, Symfony  
-**Test Frameworks:** phpUnit, xUnit, Jasmine  
-**Worked with:** Java, Perl, Python
+---
 
-#### OS and Programs
-Linux (Arch, Ubuntu, CentOS, Fedora, etc), Mac OS X, Windows
-Visual Studio, NetBeans, Eclipse, VMWare, VirtualBox, Git, Subversion, Xdebug, 
-SQL Server Management Studio, Adobe Photoshop, Adobe Illustrator, Chrome, 
-Firefox, Internet Explorer
+#### About
 
-#### Website Portfolio
-I've worked on a variety of websites in the past 15 years. Here is a sampling 
-that are still live today:
+I consider myself an lifelong learner and enjoy reading about and learning new
+front-end technologies. I simply enjoy creating things that work well, and the
+web is an excellent platform for that passion. In my spare time I've been creating
+JavaScript layout systems using typescript, a checkbook app using Angular 2 and
+Firebase, and I like to dabble in things like Electron, React, Vue and other new JS
+libraries. JavaScript is definitely my language of choice, especially when coupled
+with TypeScript (C# would be a close second).
+
+---
+
+#### Contact
+
+[james@ehlydesign.com](mailto:james@ehlydesign.com)  
+[(402) 770-3702](tel:14027703702)

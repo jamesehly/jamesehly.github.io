@@ -2,3 +2,6 @@
 /build
 /public
 /original_assets
+/.vscode
+**/drafts
+firebase-debug.log
