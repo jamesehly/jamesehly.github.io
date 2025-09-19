@@ -1,0 +1,58 @@
+# Jekyll Configuration for GitHub Pages
+title: "JamesEhly.com"
+description: "James Ehly - Full Stack Developer Portfolio"
+author: "James Ehly"
+email: "james@fabsoft.io"
+phone: "(402) 770-3702"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - bootstrap
+
+# GitHub Pages settings
+baseurl: ""
+url: "https://jamesehly.github.io"
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - firebase.json
+  - src/
+  - build/
+  - public/
+
+# Collections
+collections:
+  resume:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

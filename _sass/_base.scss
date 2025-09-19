@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background: #fff url("/assets/images/bg-pattern.png");
+    color: #626262;
+}
+
+body {
+    font-family: "Yantramanav", sans-serif;
+    font-size: .9rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}

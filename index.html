@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Home"
+---
+<div id="page">
+    <div id="title">
+        <div class="ro">
+            <div class="co" style="width:360px">
+                <img class="rounded-circle img-responsive img-me" src="{{ '/assets/images/james-ehly-color.png' | relative_url }}" height="300" width="300" alt="James Ehly">
+            </div>
+            <div class="co">
+                <p class="lead">Hello, I'm James. As a full stack developer, I create modern web applications that are flexible, testable, and ready to scale. I'm passionate about blending technology and design to deliver exceptional user experiences.</p>
+                <div id="find-me">
+                    <ul class="nav nav-pills">
+                        <li>  
+                            <a href="https://www.linkedin.com/in/ehlydesign/" title="LinkedIn">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>  
+                            <a href="https://github.com/jamesehly" title="GitHub">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li>  
+                            <a href="https://stackoverflow.com/users/1373075/james-ehly" title="Stack Overflow">
+                                <i class="fa fa-stack-overflow"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resume"> 
+        <div class="ro">
+            <div class="co" style="width:60%">
+                {% include resume/employment.html %}
+            </div>
+            <div class="co">
+                {% include resume/employment-meta.html %}
+            </div>
+        </div>
+    </div>
+</div>
